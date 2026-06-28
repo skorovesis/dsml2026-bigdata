@@ -4,7 +4,7 @@
 |---------|----------|----------------|-------------------|
 | Αρχιτεκτονική project / δομή αρχείων | Cursor (Claude) | Πλήρης πρόταση δομής | Επιλογή τελικής δομής, έλεγχος αποτελεσμάτων |
 | `code/common.py` | Cursor (Claude) | Αρχικός σκελετός loaders/helpers | Επιβεβαίωση πεδίων datasets από HDFS |
-| `code/q1_*.py`, `q2_*.py`, `q3_*.py`, `q4_df.py` | Cursor (Claude) | Αρχική υλοποίηση queries | Review λογικής, διόρθωση edge cases |
+| `code/q1_*.py`, `q2_*.py`, `q3_*.py`, `q4_df.py` | Cursor (Claude) | Συμβολή στην υλοποίηση των queries | Review λογικής, διόρθωση edge cases |
 | `scripts/run_benchmarks.sh` | Cursor (Claude) | Παραγωγή script από εκφώνηση | Έλεγχος executor configs |
 
 
