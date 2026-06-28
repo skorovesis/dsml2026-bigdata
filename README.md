@@ -57,24 +57,9 @@ hdfs dfs -ls /user/dsml00297/logs
 
 ## Αναφορά LaTeX
 
-Η αναφορά βρίσκεται στο `report/report.tex` με **όλους τους χρόνους** ήδη συμπληρωμένους.
+Η αναφορά βρίσκεται στο `bigdata_2026_report.pdf` με **όλους τους χρόνους** ήδη συμπληρωμένους.
 
-### Μεταγλώττιση PDF
 
-**Επιλογή Α — WSL:**
-```bash
-bash ~/dsml2026-project/report/compile.sh
-# ή χειροκίνητα:
-sudo apt install texlive-latex-base texlive-latex-recommended texlive-lang-european
-cd ~/dsml2026-project/report && pdflatex report.tex && pdflatex report.tex
-```
-
-**Επιλογή Β — Overleaf:** ανέβασε το `report.tex` (και `LLM_USAGE.md` ως κείμενο).
-
-### Συλλογή χρόνων (επανάληψη)
-```bash
-bash ~/dsml2026-project/scripts/collect_timings.sh
-# Αποτέλεσμα: ~/dsml2026-project/timings_collected.txt
 ```
 
 ## Πίνακας χρόνων (συλλογή 2026-06-28)
