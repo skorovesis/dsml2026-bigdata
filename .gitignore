@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# LaTeX build artifacts
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.pdf
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local timing dumps (optional; timings.txt is kept as reference)
+timings_collected.txt

@@ -1,0 +1,45 @@
+# Χρόνοι εκτέλεσης — συλλογή από driver logs (QUERY_ELAPSED_SECONDS)
+# Ημερομηνία συλλογής: 2026-06-28
+
+[requirement_1]
+convert_parquet_s = 295.030
+q2_csv_s = 32.750
+q2_parquet_s = 4.247
+
+[requirement_2_q1]
+config = "2 executors x 1 core x 2GB"
+rdd_s = 1.915
+df_s = 21.623
+df_udf_s = 224.564
+
+[requirement_3_q2]
+config = "4 executors x 1 core x 2GB"
+df_s = 327.657
+sql_s = 101.973
+
+[requirement_4_q3]
+config = "3 executors x 1 core x 2GB"
+df_s = 285.295
+rdd_s = 3.389
+
+[requirement_5_q4_vertical]
+config_1c_2g_s = 295.142
+config_2c_4g_s = 356.363
+config_4c_8g_s = 89.381
+
+[requirement_5_q4_horizontal]
+config_2x4c_8g_s = 218.820
+config_4x2c_4g_s = 176.556
+config_8x1c_2g_s = 230.805
+
+[requirement_6_q3_hints]
+broadcast_s = 41.614
+merge_s = 18.719
+shuffle_hash_s = 47.860
+shuffle_replicate_nl_s = 81.766
+
+[requirement_6_q4_hints]
+broadcast_s = 294.637
+merge_s = 294.910
+shuffle_hash_s = 282.839
+shuffle_replicate_nl_s = 271.347
